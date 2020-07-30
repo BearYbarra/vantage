@@ -11,36 +11,36 @@ class Directory extends React.Component {
         this.state = {
             sections: [
                 {
-                  title: 'art',
-                  imageUrl: 'https://i.ibb.co/mtS93Nd/art.jpg',
+                  title: 'architecture',
+                  imageUrl: 'https://i.ibb.co/qNXxZLK/architecture.jpg',
                   id: 1,
-                  linkUrl: 'shop/art'
+                  linkUrl: 'shop/architecture'
                 },
                 {
-                  title: 'baking',
-                  imageUrl: 'https://i.ibb.co/b3FB589/baking.jpg',
+                  title: 'nature',
+                  imageUrl: 'https://i.ibb.co/VjcY74k/nature.jpg',
                   id: 2,
-                  linkUrl: 'shop/baking'
+                  linkUrl: 'shop/nature'
                 },
                 {
-                  title: 'crafts',
-                  imageUrl: 'https://i.ibb.co/Y3CdrsT/crafts.jpg',
+                  title: 'neon',
+                  imageUrl: 'https://i.ibb.co/njyRqXP/neon.jpg',
                   id: 3,
-                  linkUrl: 'shop/crafts'
+                  linkUrl: 'shop/neon'
                 },
                 {
-                  title: 'office',
-                  imageUrl: 'https://i.ibb.co/VvhpFZP/office.jpg',
+                  title: 'sculpture',
+                  imageUrl: 'https://i.ibb.co/rwDLws2/sculpture.jpg',
                   size: 'large',
                   id: 4,
-                  linkUrl: 'shop/office'
+                  linkUrl: 'shop/sculpture'
                 },
                 {
-                  title: 'decor',
-                  imageUrl: 'https://i.ibb.co/DrzLtRL/decor.jpg',
+                  title: 'still life',
+                  imageUrl: 'https://i.ibb.co/92WtyqW/still-life.jpg',
                   size: 'large',
                   id: 5,
-                  linkUrl: 'shop/decor'
+                  linkUrl: 'shop/still-life'
                 }
             ]
         }

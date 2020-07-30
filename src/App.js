@@ -5,9 +5,9 @@ import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 
-const ArtPage = () => (
+const ArchitecturePage = () => (
   <div>
-    <h1>ART PAGE</h1>
+    <h1>ARCHITECTURE PAGE</h1>
   </div>
 );
 
@@ -16,7 +16,7 @@ function App() {
     <div>
       <Switch>
         <Route exact path='/' component={HomePage} />
-        <Route path='/shop/art' component={ArtPage} />
+        <Route path='/shop/architecture' component={ArchitecturePage} />
       </Switch>
     </div>
   );
