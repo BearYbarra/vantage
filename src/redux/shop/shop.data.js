@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-    {
+const SHOP_DATA = {
+    architecture: {
       id: 1,
       title: 'Architecture',
       routeName: 'architecture',
@@ -54,7 +54,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    nature: {
       id: 2,
       title: 'Nature',
       routeName: 'nature',
@@ -97,7 +97,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    neon: {
       id: 3,
       title: 'Neon',
       routeName: 'neon',
@@ -146,7 +146,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    sculpture: {
       id: 4,
       title: 'Sculpture',
       routeName: 'sculpture',
@@ -183,10 +183,10 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    stillLife: {
       id: 5,
       title: 'Still Life',
-      routeName: 'still-life',
+      routeName: 'stillLife',
       items: [
         {
           id: 27,
@@ -226,6 +226,6 @@ const SHOP_DATA = [
         }
       ]
     }
-  ];
+  };
 
   export default SHOP_DATA;
